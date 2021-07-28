@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .rosh {
-    @apply border-solid border-t-4 top-0 w-full;
+    @apply border-solid border-t-4 w-full pt-4;
     border-color: rgba(74, 123, 190, 1);
     z-index: 1000;
   }

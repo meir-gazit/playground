@@ -1,22 +1,22 @@
-import headercontact from './images/headercontact.svg'
-import header99 from './images/header99.svg'
-import logonewzimmer from './images/logonewzimmer.svg'
+import lastMinutes from './images/lastMinutes.svg'
+import quatation from './images/quatation.svg'
+import purpleTag from './images/purpleTag.svg'
 import logo from './images/logo.svg'
-import xicontiktokpc from './images/xicontiktokpc.svg'
-import xicontelegrampc from './images/xicontelegrampc.svg'
-import xicontwitterpc from './images/xicontwitterpc.svg'
-import xiconinstagrampc from './images/xiconinstagrampc.svg'
-import xiconfacebookpc from './images/xiconfacebookpc.svg'
+import tiktok from './images/tiktok.svg'
+import telegram from './images/telegram.svg'
+import twitter from './images/twitter.svg'
+import instagram from './images/instagram.svg'
+import facebook from './images/facebook.svg'
 
 
 export {
-    headercontact,
-    header99,
-    logonewzimmer,
+	lastMinutes,
+	quatation,
+	purpleTag,
     logo,
-    xicontiktokpc,
-    xicontelegrampc,
-    xicontwitterpc,
-    xiconinstagrampc,
-    xiconfacebookpc,
+    tiktok,
+    telegram,
+    twitter,
+    instagram,
+    facebook,
 }

@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
+//import Button from './Button'
 import {
 	lastMinutes,
 	quatation,
@@ -11,12 +12,22 @@ import {
 	twitter,
 	instagram,
 	facebook,
+	available,
+	pool,
+	villa,
+	prestigious,
+	studentsSoldiers,
+	druze,
+	byTheHour,
+	religious,
+	kibbutz,
+	attractions,
 } from "./assets"
 
 export default function Navbar() {
 	return (
 		<>
-			<nav className="rosh flex flex-row justify-between" name="nav-top-part">
+			<nav className="navTop flex flex-row justify-between">
 
 					<div className="mt-4">
 						<Image width="180px" height="45px" src={lastMinutes} />
@@ -56,7 +67,7 @@ export default function Navbar() {
 
 					</div>
 
-					<div className="flex-initial flex items-center justify-center py-0 px-1">
+					<div className="flex-initial flex items-center justify-center -mt-2 px-1">
 
 						<Link href="/">
 							<a className="whitespace-nowrap px-2">צרו קשר</a>
@@ -128,6 +139,79 @@ export default function Navbar() {
 				<div className="mr-12">
 					<Image width="85px" height="67px" src={logo.src} />
 				</div>
+
+			</nav>
+		
+			<nav className="navButtom flex flex-row-reverse justify-between">
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='צימר פנוי' src={available} />
+					</div>
+					<span className="place-self-center">צימר פנוי</span>
+				</button>   
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='צימר עם בריכה' src={pool} />
+					</div>
+					<span className="place-self-center">צימר עם בריכה</span>
+				</button>   
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='וילות נופש' src={villa} />
+					</div>
+					<span className="place-self-center">וילות נופש</span>
+				</button>   
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='צימר יוקרתי' src={prestigious} />
+					</div>
+					<span className="place-self-center">צימר יוקרתי</span>
+				</button>   
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='סטודנטים/חיילים' src={studentsSoldiers} />
+					</div>
+					<span className="place-self-center">סטודנטים/חיילים</span>
+				</button>   
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='אירוח דרוזי' src={druze} />
+					</div>
+					<span className="place-self-center">אירוח דרוזי</span>
+				</button>   
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='צימר לפי שעה' src={byTheHour} />
+					</div>
+					<span className="place-self-center">צימר לפי שעה</span>
+				</button>   
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='צימר לדתיים' src={religious} />
+					</div>
+					<span className="place-self-center">צימר לדתיים</span>
+				</button>   
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='צימר בקיבוץ' src={kibbutz} />
+					</div>
+					<span className="place-self-center">צימר בקיבוץ</span>
+				</button>   
+
+				<button className="hover:text-blue-800 text-gray-800 font-bold py-2 px-4">
+					<div className="flex items-center justify-center">
+						<Image width={30} height={30} alt='אטרקציות' src={attractions } />
+					</div>
+					<span className="place-self-center">אטרקציות</span>
+				</button>   
 
 			</nav>
 		</>
